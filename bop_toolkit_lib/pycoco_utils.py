@@ -52,7 +52,7 @@ def create_annotation_info(annotation_id, image_id, object_id, binary_mask, tole
         "image_id": image_id,
         "category_id": object_id,
         "iscrowd": 0,
-        "area": [area],
+        "area": area,
         "bbox": bounding_box,
         "segmentation": segmentation,
         "width": binary_mask.shape[1],

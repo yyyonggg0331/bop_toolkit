@@ -12,7 +12,8 @@ import os
 if 'BOP_PATH' in os.environ:
   datasets_path = os.environ['BOP_PATH']
 else:
-  datasets_path = r'/path/to/bop/datasets'
+  # datasets_path = r'/path/to/bop/datasets'
+  datasets_path = r'/media/wy/新加卷/data/bop'
 
 # Folder with pose results to be evaluated.
 results_path = r'/path/to/folder/with/results'
